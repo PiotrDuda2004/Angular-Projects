@@ -1,1 +1,1 @@
-docker exec -it rfr-node-cmd bash -c "cd /work; bash"
+docker exec -it b2cf0f4296d0_rfr-node-cmd bash -c "cd /work; bash"
