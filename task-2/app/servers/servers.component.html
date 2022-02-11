@@ -1,0 +1,22 @@
+<label>Type your login: </label>
+<!--<input-->
+  <!--type="text"-->
+  <!--class="form-control"-->
+  <!--(input)="onUpdateServerName($event)">-->
+<input
+  type="text"
+  class="form-control"
+  [(ngModel)]="loginName">
+<br>
+<label>Type your Password: </label>
+<input
+  type="text"
+  class="form-control"
+  [(ngModel)]="passName">
+<!--<p>{{ serverName }}</p>-->
+<button
+  class="btn btn-primary"
+  [disabled]="!allowNewServer"
+  (click)="checkPasses()">Login</button>
+<!--<p [innerText]="allowNewServer"></p>-->
+<p>{{ LoginStatus }}</p>
